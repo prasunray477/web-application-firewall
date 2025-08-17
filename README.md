@@ -14,16 +14,6 @@ It works as a **local HTTP proxy server** that analyzes requests in real-time, e
 - Can proxy requests to **any website**, not just a single target
 - Easy to extend with new features or models
 
----
-
-## Project Structure
-.
-├── proxy_server.py # Runs the local proxy & intrusion detection
-├── waf_training.py # Trains the ML model based on the combined dataset
-├── training_model.pkl # Trained model (generated after training)
-├── combined_data.csv # Dataset (HTTP requests: path, body, class)
-└── README.md # Project documentation
-
 
 ---
 
